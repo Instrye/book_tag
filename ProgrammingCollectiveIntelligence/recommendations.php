@@ -64,7 +64,7 @@ function sim_distance($prefs, $preson1, $preson2){
     return 1/(1+sqrt($si));
 }
 
-//皮尔逊相关度
+//皮尔逊相关度  
 function sim_pearson($prefs, $p1, $p2){
     $si = [];
     foreach($prefs[$p1] as $key => $v){
